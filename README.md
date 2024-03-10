@@ -1,6 +1,6 @@
-# DesafioDesarrolloS.co
+# DesafioDesarrollo SmartUP
 
-# Desafío de Desarrollo de Interfaz de Chat para Reclutamiento - The Strainer Co.
+# Desafío de Desarrollo de Interfaz de Chat para Reclutamiento - SmartUp
 
 ## Descripción
 
@@ -13,7 +13,7 @@ Tiene un fuerte enfoque en el diseño y en reinventar un poco el proceso desde m
   
 - **Pruebas Psicológicas Clásicas**: Se implementan pruebas psicológicas tradicionales, adaptadas y mejoradas mediante IA para ofrecer análisis más precisos y personalizados.
 
-- **Futuro Uso de TheStrainer.co**: Compatibilidad futura con la API de TheStrainer.co
+- **Futuro Uso de SmartUP.co**: Compatibilidad futura con la API de TheStrainer.co
 
 ## Tecnologías Utilizadas
 
@@ -25,5 +25,4 @@ Tiene un fuerte enfoque en el diseño y en reinventar un poco el proceso desde m
 
 1. Clona el repositorio:
 
-git clone https://github.com/DanArea/DesafioDesarrolloS.co
-
+git clone https://github.com/DanArea/DesafioDesarrollo2-SmartUP
