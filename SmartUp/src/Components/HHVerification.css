@@ -1,0 +1,106 @@
+/* HHVerification.css */
+
+.container2 {
+  display: flex;
+}
+
+.chat-container2 {
+  position:absolute;
+  width: 70%;
+  height: 90%;
+  margin-top: -0%;
+  margin-left: 15%; 
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: #dedce4;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.messages-container2 {
+  overflow-y: auto;
+  padding: 10px;
+}
+
+
+.input-form2 {
+  padding: -10px;
+}
+
+.input-container2 {
+  display: flex;
+  align-items: center;
+}
+
+
+.message-input2 {
+  flex: 1;
+  padding: 8px; /* Ajuste de padding */
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  margin-right: 5%;
+}
+
+.send-button2 {
+  padding: 8px 16px;
+  border-radius: 50%;
+  background-color: #c3b0ff;
+  margin-right: 5%;
+  margin-left: 10%;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.send-button2:hover {
+  background-color: #6e0cbe21;
+}
+
+.form-container {
+  position:absolute; 
+  margin-top: 2%;
+  margin-left: 25%;
+  width: 50%;
+  height: 80%;
+  overflow-y: auto; /* Agrega una barra de desplazamiento vertical cuando es necesario */
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  padding: 20px;
+}
+
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type='text'],
+input[type='number'],
+input[type='file'] {
+  width: calc(100% - 16px); /* Ajuste para tener en cuenta el padding */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px; /* Añadido para separar los inputs */
+}
+
+.form-button {
+  padding: 8px 16px;
+  border-radius: 5px;
+  background-color: #745fb9;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-button:hover {
+  background-color: #6e0cbe;
+}

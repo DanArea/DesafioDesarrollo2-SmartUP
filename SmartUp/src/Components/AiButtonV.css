@@ -1,0 +1,103 @@
+.chat-button-container2 {
+    position: fixed;
+    bottom: 10%;
+    right: -10%;
+    z-index: 1000; /* Asegura que esté encima de otros elementos */
+  }
+  
+  .chat-button2 {
+    position: a;
+    background-color: transparent;
+    height: 0px;
+    border: none;
+    border-radius: 50%; /* Forma de círculo */
+    width: 10%;
+    font-size: 1.5em;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .chat-button2:hover {
+    background-color: transparent; 
+  }
+
+  .button-content {
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+  }
+  .chat-button2 {
+    /* Estilos existentes para el botón... */
+    transition: transform 0.3s ease-in-out, 
+                box-shadow 0.3s ease-in-out; /* Nueva transición para sombra */
+  }
+  
+  .chat-button2.rotate {
+    transform: rotate(10deg);
+  
+  }
+  
+  /* Agregar un poco de oscilación cuando el botón se presiona */
+  .chat-button2:active {
+    transform: rotate(10deg); /* Girar un poco menos que cuando está "rotado" */
+
+  }
+  
+  /* Agregar un poco de movimiento al botón cuando se pasa el mouse */
+  .chat-button2:hover {
+    transform: translateY(-3px); /* Mover el botón hacia arriba un poco */
+  }
+  
+  .chat-cloud2 {
+    position: absolute;
+    bottom: 120%;
+    right: 75%;
+    background-color: white;
+    border: 2px solid transparent;
+    padding: 20px 25px;
+    border-radius: 30px;
+    z-index: 999;
+    width: 200px; /* El doble del ancho original de 400px */
+    height: auto; /* Mismo alto que el original */
+    font-size: 15px;
+    line-height: 1.5;
+    overflow: visible;
+}
+
+  
+  .chat-cloud2::after {
+    content: '';
+    position: absolute;
+    bottom: -0px;
+    right: 50%;
+    transform: translateX(50%);
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0);
+    z-index: -1;
+  }
+  
+  .chat-cloud2::before {
+    content: '';
+    position: absolute;
+    bottom: -25px;
+    right: 50%;
+    transform: translateX(50%);
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    transform: rotate(-195deg);
+    z-index: -2; /* Asegura que esté detrás del pseudo-elemento principal */
+    clip-path: polygon(100% 100%, 0 100%, 0 0); /* Crea una máscara para ocultar la parte que se superpone */
+    
+  }
+
+  .button-image2 {
+    width: 200%;
+    height: 200%;
+    border-radius: 50%;
+    box-shadow: -15px 15px 20px 2px rgba(0, 0, 0, 0.4);
+  }
+  
+  
+  

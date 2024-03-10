@@ -1,0 +1,97 @@
+
+
+.chat-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75%; /* Altura ajustable */
+    width: 60%; /* Ancho ajustable */
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #DEDCE4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .messages-container {
+    flex: 1;
+    width: 100%;
+    overflow-y: auto;
+    padding: 10px;
+  }
+  
+  .message {
+    margin-bottom: 10px;
+    margin-left: 1%;
+    padding: 8px 12px;
+    border-radius: 20px 20px 20px 0px;
+    max-width: 70%;
+    word-wrap: break-word;
+  }
+  
+  .user {
+    align-self: flex-end;
+    height: 8%;
+    background-color: #745FB9;
+    color: #fff;
+  }
+  
+  .bot {
+    align-self: flex-start;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .input-form {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .input-background {
+    position: absolute;
+    top: 1%;
+    left: -0.18%;
+    width: 100.3%;
+    height: 120%;
+    background-color: #745FB9; /* color morado */
+    border-radius: 0px 0px 20px 20px; /* border-radius sólo en la parte inferior */
+    z-index: -1; /* Coloca el fondo detrás del input y el botón */
+  }
+  
+  .message-input {
+    flex: 1;
+    padding: .2%;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    margin-right: 5%;
+    z-index: 1; /* asegura que el input esté por encima del fondo morado */
+  }
+  .send-button {
+    padding: 8px 16px;
+    border-radius: 50px;
+    background-color: transparent;
+    margin-right: 1%;
+    margin-left: 1%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .send-button:hover {
+    background-color: #6e0cbe21;
+  }
+  
